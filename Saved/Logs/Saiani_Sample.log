@@ -1265,3 +1265,625 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2024.03.10-18.56.20:725][345]LogUObjectHash: Compacting FUObjectHashTables data took   0.32ms
 [2024.03.10-18.56.20:730][345]LogUObjectHash: Compacting FUObjectHashTables data took   0.28ms
 [2024.03.10-18.56.20:740][345]LogFileHelpers: InternalPromptForCheckoutAndSave took 112 ms (total: 227 ms)
+[2024.03.10-18.57.05:583][555]LogDerivedDataCache: C:/Users/gce202311/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:19.217 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 10477 files in 13006 folders with total size 2493 MiB.
+[2024.03.10-18.57.52:457][696]LogHttp: Warning: 00000BCB2B67C300: request failed, libcurl error: 65 (Send failed since rewinding of the data stream failed)
+[2024.03.10-18.57.52:457][696]LogHttp: Warning: 00000BCB2B67C300: libcurl info message cache 0 (Found bundle for host: 0xbcacf960000 [serially])
+[2024.03.10-18.57.52:457][696]LogHttp: Warning: 00000BCB2B67C300: libcurl info message cache 1 (Re-using existing connection with host datarouter.ol.epicgames.com)
+[2024.03.10-18.57.52:457][696]LogHttp: Warning: 00000BCB2B67C300: libcurl info message cache 2 (We are completely uploaded and fine)
+[2024.03.10-18.57.52:457][696]LogHttp: Warning: 00000BCB2B67C300: libcurl info message cache 3 (TLSv1.2 (IN), TLS alert, close notify (256):)
+[2024.03.10-18.57.52:457][696]LogHttp: Warning: 00000BCB2B67C300: libcurl info message cache 4 (Connection died, retrying a fresh connect (retry count: 1))
+[2024.03.10-18.57.52:457][696]LogHttp: Warning: 00000BCB2B67C300: libcurl info message cache 5 (state.rewindbeforesend = TRUE)
+[2024.03.10-18.57.52:457][696]LogHttp: Warning: 00000BCB2B67C300: libcurl info message cache 6 (Closing connection)
+[2024.03.10-18.57.52:457][696]LogHttp: Warning: 00000BCB2B67C300: libcurl info message cache 7 (TLSv1.2 (OUT), TLS alert, close notify (256):)
+[2024.03.10-18.57.52:457][696]LogHttp: Warning: 00000BCB2B67C300: libcurl info message cache 8 (Issue another request to this URL: 'https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B0957312A-47A4-0947-98E2-54B38910B9A3%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.3.2-29314046%2B%2B%2BUE5%2BRelease-5.3&UserID=39ca5be4437cb81f5097b59922450520%7Ce888d7fb02c44ec4b9bd2ebf1b244a1b%7Cc58504a7-2a89-49c7-9329-4f87d84f62a0&AppEnvironment=datacollector-binary&UploadType=eteventstream')
+[2024.03.10-18.57.52:457][696]LogHttp: Warning: 00000BCB2B67C300: libcurl info message cache 9 (  Trying 50.19.63.44:443...)
+[2024.03.10-18.57.52:457][696]LogHttp: Warning: 00000BCB2B67C300: libcurl info message cache 10 (Connected to datarouter.ol.epicgames.com (50.19.63.44) port 443)
+[2024.03.10-18.57.52:457][696]LogHttp: Warning: 00000BCB2B67C300: libcurl info message cache 11 (ALPN: curl offers http/1.1)
+[2024.03.10-18.57.52:457][696]LogHttp: Warning: 00000BCB2B67C300: libcurl info message cache 12 (SSL reusing session ID)
+[2024.03.10-18.57.52:457][696]LogHttp: Warning: 00000BCB2B67C300: libcurl info message cache 13 (TLSv1.3 (OUT), TLS handshake, Client hello (1):)
+[2024.03.10-18.57.52:457][696]LogHttp: Warning: 00000BCB2B67C300: libcurl info message cache 14 (TLSv1.3 (IN), TLS handshake, Server hello (2):)
+[2024.03.10-18.57.52:459][696]LogHttp: Warning: 00000BCB2B67C300: libcurl info message cache 15 (TLSv1.2 (IN), TLS handshake, Certificate (11):)
+[2024.03.10-18.57.52:459][696]LogHttp: Warning: 00000BCB2B67C300: libcurl info message cache 16 (TLSv1.2 (IN), TLS handshake, Server key exchange (12):)
+[2024.03.10-18.57.52:459][696]LogHttp: Warning: 00000BCB2B67C300: libcurl info message cache 17 (TLSv1.2 (IN), TLS handshake, Server finished (14):)
+[2024.03.10-18.57.52:459][696]LogHttp: Warning: 00000BCB2B67C300: libcurl info message cache 18 (TLSv1.2 (OUT), TLS handshake, Client key exchange (16):)
+[2024.03.10-18.57.52:459][696]LogHttp: Warning: 00000BCB2B67C300: libcurl info message cache 19 (TLSv1.2 (OUT), TLS change cipher, Change cipher spec (1):)
+[2024.03.10-18.57.52:459][696]LogHttp: Warning: 00000BCB2B67C300: libcurl info message cache 20 (TLSv1.2 (OUT), TLS handshake, Finished (20):)
+[2024.03.10-18.57.52:459][696]LogHttp: Warning: 00000BCB2B67C300: libcurl info message cache 21 (TLSv1.2 (IN), TLS handshake, Finished (20):)
+[2024.03.10-18.57.52:459][696]LogHttp: Warning: 00000BCB2B67C300: libcurl info message cache 22 (old SSL session ID is stale, removing)
+[2024.03.10-18.57.52:459][696]LogHttp: Warning: 00000BCB2B67C300: libcurl info message cache 23 (SSL connection using TLSv1.2 / ECDHE-RSA-AES128-GCM-SHA256)
+[2024.03.10-18.57.52:459][696]LogHttp: Warning: 00000BCB2B67C300: libcurl info message cache 24 (ALPN: server accepted http/1.1)
+[2024.03.10-18.57.52:459][696]LogHttp: Warning: 00000BCB2B67C300: libcurl info message cache 25 (Server certificate:)
+[2024.03.10-18.57.52:459][696]LogHttp: Warning: 00000BCB2B67C300: libcurl info message cache 26 ( subject: CN=datarouter.cfef.live.use1a.on.epicgames.com)
+[2024.03.10-18.57.52:459][696]LogHttp: Warning: 00000BCB2B67C300: libcurl info message cache 27 ( start date: Mar  4 00:00:00 2024 GMT)
+[2024.03.10-18.57.52:459][696]LogHttp: Warning: 00000BCB2B67C300: libcurl info message cache 28 ( expire date: Apr  2 23:59:59 2025 GMT)
+[2024.03.10-18.57.52:459][696]LogHttp: Warning: 00000BCB2B67C300: libcurl info message cache 29 ( subjectAltName: host "datarouter.ol.epicgames.com" matched cert's "datarouter.ol.epicgames.com")
+[2024.03.10-18.57.52:459][696]LogHttp: Warning: 00000BCB2B67C300: libcurl info message cache 30 ( issuer: C=US; O=Amazon; CN=Amazon RSA 2048 M03)
+[2024.03.10-18.57.52:459][696]LogHttp: Warning: 00000BCB2B67C300: libcurl info message cache 31 ( SSL certificate verify ok.)
+[2024.03.10-18.57.52:459][696]LogHttp: Warning: 00000BCB2B67C300: libcurl info message cache 32 (using HTTP/1.1)
+[2024.03.10-18.57.52:459][696]LogHttp: Warning: 00000BCB2B67C300: libcurl info message cache 33 (necessary data rewind wasn't possible)
+[2024.03.10-18.57.52:459][696]LogHttp: Warning: 00000BCB2B67C300: libcurl info message cache 34 (Closing connection)
+[2024.03.10-18.57.52:459][696]LogHttp: Warning: 00000BCB2B67C300: libcurl info message cache 35 (TLSv1.2 (OUT), TLS alert, close notify (256):)
+[2024.03.10-18.57.52:459][696]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B0957312A-47A4-0947-98E2-54B38910B9A3%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.3.2-29314046%2B%2B%2BUE5%2BRelease-5.3&UserID=39ca5be4437cb81f5097b59922450520%7Ce888d7fb02c44ec4b9bd2ebf1b244a1b%7Cc58504a7-2a89-49c7-9329-4f87d84f62a0&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2024.03.10-18.59.19:042][258]LogUObjectHash: Compacting FUObjectHashTables data took   0.36ms
+[2024.03.10-18.59.19:153][258]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.10-18.59.19:154][258]LogWorldPartition: ULevel::OnLevelLoaded(CommonLevel)(bIsOwningWorldGameWorld=0, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=1, InitializeForGame=0)
+[2024.03.10-18.59.19:154][258]LogWorldPartition: Display: WorldPartition initialize started...
+[2024.03.10-18.59.19:154][258]LogWorldPartition: UWorldPartition::Initialize : World = CommonLevel, World Type = Inactive, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 1, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2024.03.10-18.59.19:185][258]LogContentBundle: [CommonLevel(スタンドアロン)] Creating new contrainer.
+[2024.03.10-18.59.19:185][258]LogWorldPartition: Display: WorldPartition initialize took 31 ms (total: 122 ms)
+[2024.03.10-18.59.19:187][258]LogAssetEditorSubsystem: Opening Asset editor for World /Game/Levels/CommonLevel.CommonLevel
+[2024.03.10-18.59.19:187][258]Cmd: MAP LOAD FILE="../../../../../../Users/gce202311/OneDrive - 学校法人中央情報学園/デスクトップ/Saiani/Content/Levels/CommonLevel.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=4
+[2024.03.10-18.59.19:187][258]LightingResults: New page: ライティングのビルド
+[2024.03.10-18.59.19:187][258]LoadErrors: New page: マップをロード中: CommonLevel.umap
+[2024.03.10-18.59.19:210][258]LogWorld: UWorld::CleanupWorld for ThirdPersonMap, bSessionEnded=true, bCleanupResources=true
+[2024.03.10-18.59.19:210][258]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.10-18.59.19:212][258]LogContentBundle: [ThirdPersonMap(スタンドアロン)] Deleting container.
+[2024.03.10-18.59.19:212][258]MapCheck: New page: マップをチェック
+[2024.03.10-18.59.19:212][258]LightingResults: New page: <何も選択されていません>
+[2024.03.10-18.59.19:216][258]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.03.10-18.59.19:221][258]LogUObjectHash: Compacting FUObjectHashTables data took   0.61ms
+[2024.03.10-18.59.19:223][258]LogWorld: UWorld::CleanupWorld for CommonLevel, bSessionEnded=true, bCleanupResources=true
+[2024.03.10-18.59.19:223][258]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.10-18.59.19:223][258]LogContentBundle: [CommonLevel(スタンドアロン)] Deleting container.
+[2024.03.10-18.59.19:231][258]LogUObjectHash: Compacting FUObjectHashTables data took   0.44ms
+[2024.03.10-18.59.19:235][258]LogUObjectHash: Compacting FUObjectHashTables data took   0.46ms
+[2024.03.10-18.59.19:244][258]LogAudio: Display: Audio Device (ID: 1) registered with world 'CommonLevel'.
+[2024.03.10-18.59.19:244][258]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.10-18.59.19:244][258]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.03.10-18.59.19:244][258]LogAIModule: Creating AISystem for world CommonLevel
+[2024.03.10-18.59.19:244][258]LogWorldPartition: ULevel::OnLevelLoaded(CommonLevel)(bIsOwningWorldGameWorld=0, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=1, InitializeForGame=0)
+[2024.03.10-18.59.19:244][258]LogWorldPartition: Display: WorldPartition initialize started...
+[2024.03.10-18.59.19:244][258]LogWorldPartition: UWorldPartition::Initialize : World = CommonLevel, World Type = Editor, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 1, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2024.03.10-18.59.19:274][258]LogContentBundle: [CommonLevel(スタンドアロン)] Creating new contrainer.
+[2024.03.10-18.59.19:274][258]LogWorldPartition: Display: WorldPartition initialize took 29 ms (total: 152 ms)
+[2024.03.10-18.59.19:306][258]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2024.03.10-18.59.19:313][258]LogUObjectHash: Compacting FUObjectHashTables data took   0.52ms
+[2024.03.10-18.59.19:318][258]Cmd: MAP CHECKDEP NOCLEARLOG
+[2024.03.10-18.59.19:318][258]MapCheck: マップチェックが完了: 0 エラー、 0 警告、完了に 0.28ミリ秒かかりました。
+[2024.03.10-18.59.27:551][750]LogUObjectHash: Compacting FUObjectHashTables data took   0.30ms
+[2024.03.10-18.59.27:661][750]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.10-18.59.27:662][750]LogAssetEditorSubsystem: Opening Asset editor for World /Game/Levels/Furukawa_Level.Furukawa_Level
+[2024.03.10-18.59.27:662][750]Cmd: MAP LOAD FILE="../../../../../../Users/gce202311/OneDrive - 学校法人中央情報学園/デスクトップ/Saiani/Content/Levels/Furukawa_Level.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=4
+[2024.03.10-18.59.27:662][750]LightingResults: New page: ライティングのビルド
+[2024.03.10-18.59.27:662][750]LoadErrors: New page: マップをロード中: Furukawa_Level.umap
+[2024.03.10-18.59.27:686][750]LogWorld: UWorld::CleanupWorld for CommonLevel, bSessionEnded=true, bCleanupResources=true
+[2024.03.10-18.59.27:686][750]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.10-18.59.27:687][750]LogContentBundle: [CommonLevel(スタンドアロン)] Deleting container.
+[2024.03.10-18.59.27:687][750]MapCheck: New page: マップをチェック
+[2024.03.10-18.59.27:687][750]LightingResults: New page: <何も選択されていません>
+[2024.03.10-18.59.27:690][750]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.03.10-18.59.27:695][750]LogUObjectHash: Compacting FUObjectHashTables data took   0.55ms
+[2024.03.10-18.59.27:697][750]LogWorld: UWorld::CleanupWorld for Furukawa_Level, bSessionEnded=true, bCleanupResources=true
+[2024.03.10-18.59.27:697][750]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.10-18.59.27:701][750]LogUObjectHash: Compacting FUObjectHashTables data took   0.43ms
+[2024.03.10-18.59.27:704][750]LogUObjectHash: Compacting FUObjectHashTables data took   0.42ms
+[2024.03.10-18.59.27:707][750]LogAudio: Display: Audio Device (ID: 1) registered with world 'Furukawa_Level'.
+[2024.03.10-18.59.27:707][750]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.10-18.59.27:707][750]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.03.10-18.59.27:708][750]LogAIModule: Creating AISystem for world Furukawa_Level
+[2024.03.10-18.59.27:765][750]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2024.03.10-18.59.27:770][750]LogUObjectHash: Compacting FUObjectHashTables data took   0.50ms
+[2024.03.10-18.59.27:774][750]Cmd: MAP CHECKDEP NOCLEARLOG
+[2024.03.10-18.59.27:774][750]MapCheck: マップチェックが完了: 0 エラー、 0 警告、完了に 0.193ミリ秒かかりました。
+[2024.03.10-18.59.28:584][786]LogUObjectHash: Compacting FUObjectHashTables data took   0.27ms
+[2024.03.10-18.59.28:661][786]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.10-18.59.28:663][786]LogAssetEditorSubsystem: Opening Asset editor for World /Game/Levels/Hirai_Level.Hirai_Level
+[2024.03.10-18.59.28:663][786]Cmd: MAP LOAD FILE="../../../../../../Users/gce202311/OneDrive - 学校法人中央情報学園/デスクトップ/Saiani/Content/Levels/Hirai_Level.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=4
+[2024.03.10-18.59.28:663][786]LightingResults: New page: ライティングのビルド
+[2024.03.10-18.59.28:663][786]LoadErrors: New page: マップをロード中: Hirai_Level.umap
+[2024.03.10-18.59.28:712][786]LogWorld: UWorld::CleanupWorld for Furukawa_Level, bSessionEnded=true, bCleanupResources=true
+[2024.03.10-18.59.28:712][786]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.10-18.59.28:713][786]MapCheck: New page: マップをチェック
+[2024.03.10-18.59.28:713][786]LightingResults: New page: <何も選択されていません>
+[2024.03.10-18.59.28:716][786]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.03.10-18.59.28:717][786]LogUObjectHash: Compacting FUObjectHashTables data took   0.61ms
+[2024.03.10-18.59.28:719][786]LogWorld: UWorld::CleanupWorld for Hirai_Level, bSessionEnded=true, bCleanupResources=true
+[2024.03.10-18.59.28:719][786]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.10-18.59.28:723][786]LogUObjectHash: Compacting FUObjectHashTables data took   0.45ms
+[2024.03.10-18.59.28:727][786]LogUObjectHash: Compacting FUObjectHashTables data took   0.41ms
+[2024.03.10-18.59.28:730][786]LogAudio: Display: Audio Device (ID: 1) registered with world 'Hirai_Level'.
+[2024.03.10-18.59.28:730][786]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.10-18.59.28:730][786]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.03.10-18.59.28:730][786]LogAIModule: Creating AISystem for world Hirai_Level
+[2024.03.10-18.59.28:785][786]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2024.03.10-18.59.28:790][786]LogUObjectHash: Compacting FUObjectHashTables data took   0.48ms
+[2024.03.10-18.59.28:794][786]Cmd: MAP CHECKDEP NOCLEARLOG
+[2024.03.10-18.59.28:796][786]MapCheck: マップチェックが完了: 0 エラー、 0 警告、完了に 0.166ミリ秒かかりました。
+[2024.03.10-18.59.29:358][817]LogUObjectHash: Compacting FUObjectHashTables data took   0.30ms
+[2024.03.10-18.59.29:464][817]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.10-18.59.29:465][817]LogAssetEditorSubsystem: Opening Asset editor for World /Game/Levels/Hoshina_Level.Hoshina_Level
+[2024.03.10-18.59.29:466][817]Cmd: MAP LOAD FILE="../../../../../../Users/gce202311/OneDrive - 学校法人中央情報学園/デスクトップ/Saiani/Content/Levels/Hoshina_Level.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=4
+[2024.03.10-18.59.29:466][817]LightingResults: New page: ライティングのビルド
+[2024.03.10-18.59.29:466][817]LoadErrors: New page: マップをロード中: Hoshina_Level.umap
+[2024.03.10-18.59.29:486][817]LogWorld: UWorld::CleanupWorld for Hirai_Level, bSessionEnded=true, bCleanupResources=true
+[2024.03.10-18.59.29:486][817]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.10-18.59.29:486][817]MapCheck: New page: マップをチェック
+[2024.03.10-18.59.29:486][817]LightingResults: New page: <何も選択されていません>
+[2024.03.10-18.59.29:490][817]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.03.10-18.59.29:492][817]LogUObjectHash: Compacting FUObjectHashTables data took   0.50ms
+[2024.03.10-18.59.29:493][817]LogWorld: UWorld::CleanupWorld for Hoshina_Level, bSessionEnded=true, bCleanupResources=true
+[2024.03.10-18.59.29:493][817]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.10-18.59.29:497][817]LogUObjectHash: Compacting FUObjectHashTables data took   0.54ms
+[2024.03.10-18.59.29:500][817]LogUObjectHash: Compacting FUObjectHashTables data took   0.46ms
+[2024.03.10-18.59.29:504][817]LogAudio: Display: Audio Device (ID: 1) registered with world 'Hoshina_Level'.
+[2024.03.10-18.59.29:504][817]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.10-18.59.29:504][817]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.03.10-18.59.29:504][817]LogAIModule: Creating AISystem for world Hoshina_Level
+[2024.03.10-18.59.29:566][817]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2024.03.10-18.59.29:572][817]LogUObjectHash: Compacting FUObjectHashTables data took   0.62ms
+[2024.03.10-18.59.29:577][817]Cmd: MAP CHECKDEP NOCLEARLOG
+[2024.03.10-18.59.29:577][817]MapCheck: マップチェックが完了: 0 エラー、 0 警告、完了に 0.168ミリ秒かかりました。
+[2024.03.10-18.59.30:301][858]LogUObjectHash: Compacting FUObjectHashTables data took   0.25ms
+[2024.03.10-18.59.30:395][858]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.10-18.59.30:396][858]LogAssetEditorSubsystem: Opening Asset editor for World /Game/Levels/Yokota_Level.Yokota_Level
+[2024.03.10-18.59.30:396][858]Cmd: MAP LOAD FILE="../../../../../../Users/gce202311/OneDrive - 学校法人中央情報学園/デスクトップ/Saiani/Content/Levels/Yokota_Level.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=4
+[2024.03.10-18.59.30:396][858]LightingResults: New page: ライティングのビルド
+[2024.03.10-18.59.30:396][858]LoadErrors: New page: マップをロード中: Yokota_Level.umap
+[2024.03.10-18.59.30:418][858]LogWorld: UWorld::CleanupWorld for Hoshina_Level, bSessionEnded=true, bCleanupResources=true
+[2024.03.10-18.59.30:418][858]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.10-18.59.30:418][858]MapCheck: New page: マップをチェック
+[2024.03.10-18.59.30:418][858]LightingResults: New page: <何も選択されていません>
+[2024.03.10-18.59.30:421][858]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.03.10-18.59.30:424][858]LogUObjectHash: Compacting FUObjectHashTables data took   0.53ms
+[2024.03.10-18.59.30:425][858]LogWorld: UWorld::CleanupWorld for Yokota_Level, bSessionEnded=true, bCleanupResources=true
+[2024.03.10-18.59.30:425][858]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.10-18.59.30:429][858]LogUObjectHash: Compacting FUObjectHashTables data took   0.47ms
+[2024.03.10-18.59.30:433][858]LogUObjectHash: Compacting FUObjectHashTables data took   0.52ms
+[2024.03.10-18.59.30:436][858]LogAudio: Display: Audio Device (ID: 1) registered with world 'Yokota_Level'.
+[2024.03.10-18.59.30:437][858]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.10-18.59.30:437][858]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.03.10-18.59.30:437][858]LogAIModule: Creating AISystem for world Yokota_Level
+[2024.03.10-18.59.30:490][858]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2024.03.10-18.59.30:496][858]LogUObjectHash: Compacting FUObjectHashTables data took   0.49ms
+[2024.03.10-18.59.30:501][858]Cmd: MAP CHECKDEP NOCLEARLOG
+[2024.03.10-18.59.30:501][858]MapCheck: マップチェックが完了: 0 エラー、 0 警告、完了に 0.196ミリ秒かかりました。
+[2024.03.10-18.59.31:789][933]LogUObjectHash: Compacting FUObjectHashTables data took   0.26ms
+[2024.03.10-18.59.31:860][933]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.10-18.59.31:861][933]LogAssetEditorSubsystem: Opening Asset editor for World /Game/Levels/Hirai_Level.Hirai_Level
+[2024.03.10-18.59.31:861][933]Cmd: MAP LOAD FILE="../../../../../../Users/gce202311/OneDrive - 学校法人中央情報学園/デスクトップ/Saiani/Content/Levels/Hirai_Level.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=4
+[2024.03.10-18.59.31:861][933]LightingResults: New page: ライティングのビルド
+[2024.03.10-18.59.31:861][933]LoadErrors: New page: マップをロード中: Hirai_Level.umap
+[2024.03.10-18.59.31:916][933]LogWorld: UWorld::CleanupWorld for Yokota_Level, bSessionEnded=true, bCleanupResources=true
+[2024.03.10-18.59.31:916][933]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.10-18.59.31:916][933]MapCheck: New page: マップをチェック
+[2024.03.10-18.59.31:916][933]LightingResults: New page: <何も選択されていません>
+[2024.03.10-18.59.31:919][933]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.03.10-18.59.31:920][933]LogUObjectHash: Compacting FUObjectHashTables data took   0.48ms
+[2024.03.10-18.59.31:922][933]LogWorld: UWorld::CleanupWorld for Hirai_Level, bSessionEnded=true, bCleanupResources=true
+[2024.03.10-18.59.31:922][933]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.10-18.59.31:926][933]LogUObjectHash: Compacting FUObjectHashTables data took   0.46ms
+[2024.03.10-18.59.31:930][933]LogUObjectHash: Compacting FUObjectHashTables data took   0.51ms
+[2024.03.10-18.59.31:933][933]LogAudio: Display: Audio Device (ID: 1) registered with world 'Hirai_Level'.
+[2024.03.10-18.59.31:933][933]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.10-18.59.31:933][933]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.03.10-18.59.31:934][933]LogAIModule: Creating AISystem for world Hirai_Level
+[2024.03.10-18.59.31:988][933]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2024.03.10-18.59.31:993][933]LogUObjectHash: Compacting FUObjectHashTables data took   0.50ms
+[2024.03.10-18.59.31:998][933]Cmd: MAP CHECKDEP NOCLEARLOG
+[2024.03.10-18.59.31:998][933]MapCheck: マップチェックが完了: 0 エラー、 0 警告、完了に 0.161ミリ秒かかりました。
+[2024.03.10-18.59.34:637][ 89]LogUObjectHash: Compacting FUObjectHashTables data took   0.23ms
+[2024.03.10-18.59.34:690][ 89]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.10-18.59.34:691][ 89]LogAssetEditorSubsystem: Opening Asset editor for World /Game/Levels/Furukawa_Level.Furukawa_Level
+[2024.03.10-18.59.34:692][ 89]Cmd: MAP LOAD FILE="../../../../../../Users/gce202311/OneDrive - 学校法人中央情報学園/デスクトップ/Saiani/Content/Levels/Furukawa_Level.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=4
+[2024.03.10-18.59.34:692][ 89]LightingResults: New page: ライティングのビルド
+[2024.03.10-18.59.34:692][ 89]LoadErrors: New page: マップをロード中: Furukawa_Level.umap
+[2024.03.10-18.59.34:714][ 89]LogWorld: UWorld::CleanupWorld for Hirai_Level, bSessionEnded=true, bCleanupResources=true
+[2024.03.10-18.59.34:714][ 89]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.10-18.59.34:714][ 89]MapCheck: New page: マップをチェック
+[2024.03.10-18.59.34:714][ 89]LightingResults: New page: <何も選択されていません>
+[2024.03.10-18.59.34:718][ 89]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.03.10-18.59.34:719][ 89]LogUObjectHash: Compacting FUObjectHashTables data took   0.50ms
+[2024.03.10-18.59.34:720][ 89]LogWorld: UWorld::CleanupWorld for Furukawa_Level, bSessionEnded=true, bCleanupResources=true
+[2024.03.10-18.59.34:720][ 89]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.10-18.59.34:725][ 89]LogUObjectHash: Compacting FUObjectHashTables data took   0.56ms
+[2024.03.10-18.59.34:728][ 89]LogUObjectHash: Compacting FUObjectHashTables data took   0.52ms
+[2024.03.10-18.59.34:731][ 89]LogAudio: Display: Audio Device (ID: 1) registered with world 'Furukawa_Level'.
+[2024.03.10-18.59.34:731][ 89]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.10-18.59.34:731][ 89]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.03.10-18.59.34:732][ 89]LogAIModule: Creating AISystem for world Furukawa_Level
+[2024.03.10-18.59.34:787][ 89]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2024.03.10-18.59.34:792][ 89]LogUObjectHash: Compacting FUObjectHashTables data took   0.48ms
+[2024.03.10-18.59.34:797][ 89]Cmd: MAP CHECKDEP NOCLEARLOG
+[2024.03.10-18.59.34:797][ 89]MapCheck: マップチェックが完了: 0 エラー、 0 警告、完了に 0.152ミリ秒かかりました。
+[2024.03.10-18.59.35:938][155]LogUObjectHash: Compacting FUObjectHashTables data took   0.29ms
+[2024.03.10-18.59.36:011][155]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.10-18.59.36:012][155]LogAssetEditorSubsystem: Opening Asset editor for World /Game/Levels/Hoshina_Level.Hoshina_Level
+[2024.03.10-18.59.36:012][155]Cmd: MAP LOAD FILE="../../../../../../Users/gce202311/OneDrive - 学校法人中央情報学園/デスクトップ/Saiani/Content/Levels/Hoshina_Level.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=4
+[2024.03.10-18.59.36:012][155]LightingResults: New page: ライティングのビルド
+[2024.03.10-18.59.36:012][155]LoadErrors: New page: マップをロード中: Hoshina_Level.umap
+[2024.03.10-18.59.36:033][155]LogWorld: UWorld::CleanupWorld for Furukawa_Level, bSessionEnded=true, bCleanupResources=true
+[2024.03.10-18.59.36:033][155]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.10-18.59.36:033][155]MapCheck: New page: マップをチェック
+[2024.03.10-18.59.36:033][155]LightingResults: New page: <何も選択されていません>
+[2024.03.10-18.59.36:036][155]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.03.10-18.59.36:038][155]LogUObjectHash: Compacting FUObjectHashTables data took   0.68ms
+[2024.03.10-18.59.36:039][155]LogWorld: UWorld::CleanupWorld for Hoshina_Level, bSessionEnded=true, bCleanupResources=true
+[2024.03.10-18.59.36:040][155]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.10-18.59.36:044][155]LogUObjectHash: Compacting FUObjectHashTables data took   0.55ms
+[2024.03.10-18.59.36:048][155]LogUObjectHash: Compacting FUObjectHashTables data took   0.60ms
+[2024.03.10-18.59.36:051][155]LogAudio: Display: Audio Device (ID: 1) registered with world 'Hoshina_Level'.
+[2024.03.10-18.59.36:051][155]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.10-18.59.36:051][155]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.03.10-18.59.36:052][155]LogAIModule: Creating AISystem for world Hoshina_Level
+[2024.03.10-18.59.36:106][155]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2024.03.10-18.59.36:111][155]LogUObjectHash: Compacting FUObjectHashTables data took   0.59ms
+[2024.03.10-18.59.36:116][155]Cmd: MAP CHECKDEP NOCLEARLOG
+[2024.03.10-18.59.36:117][155]MapCheck: マップチェックが完了: 0 エラー、 0 警告、完了に 0.151ミリ秒かかりました。
+[2024.03.10-18.59.36:784][192]LogUObjectHash: Compacting FUObjectHashTables data took   0.26ms
+[2024.03.10-18.59.36:862][192]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.10-18.59.36:863][192]LogAssetEditorSubsystem: Opening Asset editor for World /Game/Levels/Yokota_Level.Yokota_Level
+[2024.03.10-18.59.36:863][192]Cmd: MAP LOAD FILE="../../../../../../Users/gce202311/OneDrive - 学校法人中央情報学園/デスクトップ/Saiani/Content/Levels/Yokota_Level.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=4
+[2024.03.10-18.59.36:863][192]LightingResults: New page: ライティングのビルド
+[2024.03.10-18.59.36:863][192]LoadErrors: New page: マップをロード中: Yokota_Level.umap
+[2024.03.10-18.59.36:887][192]LogWorld: UWorld::CleanupWorld for Hoshina_Level, bSessionEnded=true, bCleanupResources=true
+[2024.03.10-18.59.36:887][192]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.10-18.59.36:887][192]MapCheck: New page: マップをチェック
+[2024.03.10-18.59.36:887][192]LightingResults: New page: <何も選択されていません>
+[2024.03.10-18.59.36:890][192]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.03.10-18.59.36:892][192]LogUObjectHash: Compacting FUObjectHashTables data took   0.53ms
+[2024.03.10-18.59.36:894][192]LogWorld: UWorld::CleanupWorld for Yokota_Level, bSessionEnded=true, bCleanupResources=true
+[2024.03.10-18.59.36:894][192]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.10-18.59.36:898][192]LogUObjectHash: Compacting FUObjectHashTables data took   0.70ms
+[2024.03.10-18.59.36:902][192]LogUObjectHash: Compacting FUObjectHashTables data took   0.48ms
+[2024.03.10-18.59.36:905][192]LogAudio: Display: Audio Device (ID: 1) registered with world 'Yokota_Level'.
+[2024.03.10-18.59.36:905][192]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.10-18.59.36:905][192]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.03.10-18.59.36:906][192]LogAIModule: Creating AISystem for world Yokota_Level
+[2024.03.10-18.59.36:968][192]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2024.03.10-18.59.36:974][192]LogUObjectHash: Compacting FUObjectHashTables data took   0.42ms
+[2024.03.10-18.59.36:979][192]Cmd: MAP CHECKDEP NOCLEARLOG
+[2024.03.10-18.59.36:979][192]MapCheck: マップチェックが完了: 0 エラー、 0 警告、完了に 0.147ミリ秒かかりました。
+[2024.03.10-18.59.37:918][246]LogUObjectHash: Compacting FUObjectHashTables data took   0.34ms
+[2024.03.10-18.59.38:008][246]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.10-18.59.38:009][246]LogAssetEditorSubsystem: Opening Asset editor for World /Game/Levels/Hirai_Level.Hirai_Level
+[2024.03.10-18.59.38:009][246]Cmd: MAP LOAD FILE="../../../../../../Users/gce202311/OneDrive - 学校法人中央情報学園/デスクトップ/Saiani/Content/Levels/Hirai_Level.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=4
+[2024.03.10-18.59.38:010][246]LightingResults: New page: ライティングのビルド
+[2024.03.10-18.59.38:010][246]LoadErrors: New page: マップをロード中: Hirai_Level.umap
+[2024.03.10-18.59.38:031][246]LogWorld: UWorld::CleanupWorld for Yokota_Level, bSessionEnded=true, bCleanupResources=true
+[2024.03.10-18.59.38:031][246]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.10-18.59.38:032][246]MapCheck: New page: マップをチェック
+[2024.03.10-18.59.38:032][246]LightingResults: New page: <何も選択されていません>
+[2024.03.10-18.59.38:034][246]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.03.10-18.59.38:036][246]LogUObjectHash: Compacting FUObjectHashTables data took   0.62ms
+[2024.03.10-18.59.38:038][246]LogWorld: UWorld::CleanupWorld for Hirai_Level, bSessionEnded=true, bCleanupResources=true
+[2024.03.10-18.59.38:038][246]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.10-18.59.38:042][246]LogUObjectHash: Compacting FUObjectHashTables data took   0.45ms
+[2024.03.10-18.59.38:045][246]LogUObjectHash: Compacting FUObjectHashTables data took   0.50ms
+[2024.03.10-18.59.38:049][246]LogAudio: Display: Audio Device (ID: 1) registered with world 'Hirai_Level'.
+[2024.03.10-18.59.38:049][246]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.10-18.59.38:049][246]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.03.10-18.59.38:049][246]LogAIModule: Creating AISystem for world Hirai_Level
+[2024.03.10-18.59.38:104][246]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2024.03.10-18.59.38:110][246]LogUObjectHash: Compacting FUObjectHashTables data took   0.53ms
+[2024.03.10-18.59.38:115][246]Cmd: MAP CHECKDEP NOCLEARLOG
+[2024.03.10-18.59.38:115][246]MapCheck: マップチェックが完了: 0 エラー、 0 警告、完了に 0.153ミリ秒かかりました。
+[2024.03.10-18.59.39:089][302]LogUObjectHash: Compacting FUObjectHashTables data took   0.30ms
+[2024.03.10-18.59.39:161][302]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.10-18.59.39:162][302]LogAssetEditorSubsystem: Opening Asset editor for World /Game/Levels/Furukawa_Level.Furukawa_Level
+[2024.03.10-18.59.39:162][302]Cmd: MAP LOAD FILE="../../../../../../Users/gce202311/OneDrive - 学校法人中央情報学園/デスクトップ/Saiani/Content/Levels/Furukawa_Level.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=4
+[2024.03.10-18.59.39:162][302]LightingResults: New page: ライティングのビルド
+[2024.03.10-18.59.39:162][302]LoadErrors: New page: マップをロード中: Furukawa_Level.umap
+[2024.03.10-18.59.39:182][302]LogWorld: UWorld::CleanupWorld for Hirai_Level, bSessionEnded=true, bCleanupResources=true
+[2024.03.10-18.59.39:182][302]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.10-18.59.39:182][302]MapCheck: New page: マップをチェック
+[2024.03.10-18.59.39:182][302]LightingResults: New page: <何も選択されていません>
+[2024.03.10-18.59.39:185][302]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.03.10-18.59.39:187][302]LogUObjectHash: Compacting FUObjectHashTables data took   0.45ms
+[2024.03.10-18.59.39:188][302]LogWorld: UWorld::CleanupWorld for Furukawa_Level, bSessionEnded=true, bCleanupResources=true
+[2024.03.10-18.59.39:188][302]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.10-18.59.39:192][302]LogUObjectHash: Compacting FUObjectHashTables data took   0.53ms
+[2024.03.10-18.59.39:195][302]LogUObjectHash: Compacting FUObjectHashTables data took   0.44ms
+[2024.03.10-18.59.39:198][302]LogAudio: Display: Audio Device (ID: 1) registered with world 'Furukawa_Level'.
+[2024.03.10-18.59.39:198][302]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.10-18.59.39:198][302]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.03.10-18.59.39:200][302]LogAIModule: Creating AISystem for world Furukawa_Level
+[2024.03.10-18.59.39:254][302]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2024.03.10-18.59.39:260][302]LogUObjectHash: Compacting FUObjectHashTables data took   0.56ms
+[2024.03.10-18.59.39:265][302]Cmd: MAP CHECKDEP NOCLEARLOG
+[2024.03.10-18.59.39:265][302]MapCheck: マップチェックが完了: 0 エラー、 0 警告、完了に 0.131ミリ秒かかりました。
+[2024.03.10-18.59.41:435][430]LogUObjectHash: Compacting FUObjectHashTables data took   0.26ms
+[2024.03.10-18.59.41:516][430]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.10-18.59.41:516][430]LogWorldPartition: ULevel::OnLevelLoaded(CommonLevel)(bIsOwningWorldGameWorld=0, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=1, InitializeForGame=0)
+[2024.03.10-18.59.41:516][430]LogWorldPartition: Display: WorldPartition initialize started...
+[2024.03.10-18.59.41:516][430]LogWorldPartition: UWorldPartition::Initialize : World = CommonLevel, World Type = Inactive, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 1, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2024.03.10-18.59.41:546][430]LogContentBundle: [CommonLevel(スタンドアロン)] Creating new contrainer.
+[2024.03.10-18.59.41:546][430]LogWorldPartition: Display: WorldPartition initialize took 29 ms (total: 181 ms)
+[2024.03.10-18.59.41:547][430]LogAssetEditorSubsystem: Opening Asset editor for World /Game/Levels/CommonLevel.CommonLevel
+[2024.03.10-18.59.41:547][430]Cmd: MAP LOAD FILE="../../../../../../Users/gce202311/OneDrive - 学校法人中央情報学園/デスクトップ/Saiani/Content/Levels/CommonLevel.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=4
+[2024.03.10-18.59.41:547][430]LightingResults: New page: ライティングのビルド
+[2024.03.10-18.59.41:547][430]LoadErrors: New page: マップをロード中: CommonLevel.umap
+[2024.03.10-18.59.41:612][430]LogWorld: UWorld::CleanupWorld for Furukawa_Level, bSessionEnded=true, bCleanupResources=true
+[2024.03.10-18.59.41:612][430]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.10-18.59.41:613][430]MapCheck: New page: マップをチェック
+[2024.03.10-18.59.41:613][430]LightingResults: New page: <何も選択されていません>
+[2024.03.10-18.59.41:616][430]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.03.10-18.59.41:618][430]LogUObjectHash: Compacting FUObjectHashTables data took   0.47ms
+[2024.03.10-18.59.41:619][430]LogWorld: UWorld::CleanupWorld for CommonLevel, bSessionEnded=true, bCleanupResources=true
+[2024.03.10-18.59.41:619][430]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.10-18.59.41:620][430]LogContentBundle: [CommonLevel(スタンドアロン)] Deleting container.
+[2024.03.10-18.59.41:628][430]LogUObjectHash: Compacting FUObjectHashTables data took   0.43ms
+[2024.03.10-18.59.41:632][430]LogUObjectHash: Compacting FUObjectHashTables data took   0.41ms
+[2024.03.10-18.59.41:640][430]LogAudio: Display: Audio Device (ID: 1) registered with world 'CommonLevel'.
+[2024.03.10-18.59.41:641][430]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.10-18.59.41:641][430]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.03.10-18.59.41:641][430]LogAIModule: Creating AISystem for world CommonLevel
+[2024.03.10-18.59.41:641][430]LogWorldPartition: ULevel::OnLevelLoaded(CommonLevel)(bIsOwningWorldGameWorld=0, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=1, InitializeForGame=0)
+[2024.03.10-18.59.41:641][430]LogWorldPartition: Display: WorldPartition initialize started...
+[2024.03.10-18.59.41:642][430]LogWorldPartition: UWorldPartition::Initialize : World = CommonLevel, World Type = Editor, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 1, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2024.03.10-18.59.41:670][430]LogContentBundle: [CommonLevel(スタンドアロン)] Creating new contrainer.
+[2024.03.10-18.59.41:670][430]LogWorldPartition: Display: WorldPartition initialize took 28 ms (total: 210 ms)
+[2024.03.10-18.59.41:703][430]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2024.03.10-18.59.41:709][430]LogUObjectHash: Compacting FUObjectHashTables data took   0.57ms
+[2024.03.10-18.59.41:720][430]Cmd: MAP CHECKDEP NOCLEARLOG
+[2024.03.10-18.59.41:720][430]MapCheck: マップチェックが完了: 0 エラー、 0 警告、完了に 0.381ミリ秒かかりました。
+[2024.03.10-18.59.44:225][576]LogUObjectHash: Compacting FUObjectHashTables data took   0.25ms
+[2024.03.10-18.59.44:334][576]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.10-18.59.44:335][576]LogAssetEditorSubsystem: Opening Asset editor for World /Game/Levels/Hirai_Level.Hirai_Level
+[2024.03.10-18.59.44:335][576]Cmd: MAP LOAD FILE="../../../../../../Users/gce202311/OneDrive - 学校法人中央情報学園/デスクトップ/Saiani/Content/Levels/Hirai_Level.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=4
+[2024.03.10-18.59.44:335][576]LightingResults: New page: ライティングのビルド
+[2024.03.10-18.59.44:335][576]LoadErrors: New page: マップをロード中: Hirai_Level.umap
+[2024.03.10-18.59.44:358][576]LogWorld: UWorld::CleanupWorld for CommonLevel, bSessionEnded=true, bCleanupResources=true
+[2024.03.10-18.59.44:359][576]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.10-18.59.44:360][576]LogContentBundle: [CommonLevel(スタンドアロン)] Deleting container.
+[2024.03.10-18.59.44:360][576]MapCheck: New page: マップをチェック
+[2024.03.10-18.59.44:360][576]LightingResults: New page: <何も選択されていません>
+[2024.03.10-18.59.44:364][576]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.03.10-18.59.44:368][576]LogUObjectHash: Compacting FUObjectHashTables data took   0.56ms
+[2024.03.10-18.59.44:369][576]LogWorld: UWorld::CleanupWorld for Hirai_Level, bSessionEnded=true, bCleanupResources=true
+[2024.03.10-18.59.44:369][576]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.10-18.59.44:374][576]LogUObjectHash: Compacting FUObjectHashTables data took   0.54ms
+[2024.03.10-18.59.44:377][576]LogUObjectHash: Compacting FUObjectHashTables data took   0.49ms
+[2024.03.10-18.59.44:380][576]LogAudio: Display: Audio Device (ID: 1) registered with world 'Hirai_Level'.
+[2024.03.10-18.59.44:380][576]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.10-18.59.44:380][576]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.03.10-18.59.44:381][576]LogAIModule: Creating AISystem for world Hirai_Level
+[2024.03.10-18.59.44:438][576]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2024.03.10-18.59.44:443][576]LogUObjectHash: Compacting FUObjectHashTables data took   0.53ms
+[2024.03.10-18.59.44:448][576]Cmd: MAP CHECKDEP NOCLEARLOG
+[2024.03.10-18.59.44:448][576]MapCheck: マップチェックが完了: 0 エラー、 0 警告、完了に 0.176ミリ秒かかりました。
+[2024.03.10-18.59.59:962][488]LogMaterial: Display: Material /Game/StarterContent/Props/Materials/M_Chair.M_Chair needed to have new flag set bUsedWithNanite !
+[2024.03.10-19.00.00:112][488]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/StarterContent/Props/SM_Chair.SM_Chair
+[2024.03.10-19.00.00:113][488]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/StarterContent/Props/SM_Chair.SM_Chair
+[2024.03.10-19.00.00:113][488]LogActorFactory: Actor Factory spawned StaticMesh /Game/StarterContent/Props/SM_Chair.SM_Chair as actor: StaticMeshActor /Game/Levels/Hirai_Level.Hirai_Level:PersistentLevel.StaticMeshActor_0
+[2024.03.10-19.00.01:395][565]LogShaderCompilers: Display: ================================================
+[2024.03.10-19.00.01:395][565]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2024.03.10-19.00.01:395][565]LogShaderCompilers: Display: Total job queries 41, among them cache hits 0 (0.00%)
+[2024.03.10-19.00.01:395][565]LogShaderCompilers: Display: Tracking 1 distinct input hashes that result in 1 distinct outputs (100.00%)
+[2024.03.10-19.00.01:395][565]LogShaderCompilers: Display: RAM used: 31.20 KiB of 819.20 MiB budget. Usage: 0.00%
+[2024.03.10-19.00.01:395][565]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2024.03.10-19.00.01:395][565]LogShaderCompilers: Display: Shaders Compiled: 1
+[2024.03.10-19.00.01:395][565]LogShaderCompilers: Display: Jobs assigned 34, completed 1 (2.94%)
+[2024.03.10-19.00.01:395][565]LogShaderCompilers: Display: Average time worker was idle: 0.00 s
+[2024.03.10-19.00.01:395][565]LogShaderCompilers: Display: Time job spent in pending queue: average 0.18 s, longest 1.36 s
+[2024.03.10-19.00.01:395][565]LogShaderCompilers: Display: Job execution time: average 1.25 s, max 1.25 s
+[2024.03.10-19.00.01:395][565]LogShaderCompilers: Display: Job life time (pending + execution): average 1.36 s, max 1.36
+[2024.03.10-19.00.01:395][565]LogShaderCompilers: Display: Shader code size: average 49.703 KiB, min 49.703 KiB, max 49.703 KiB
+[2024.03.10-19.00.01:395][565]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 1.36 s
+[2024.03.10-19.00.01:395][565]LogShaderCompilers: Display: Jobs were issued in 9 batches (only local compilation was used), average 3.78 jobs/batch
+[2024.03.10-19.00.01:396][565]LogShaderCompilers: Display: Average processing rate: 0.74 jobs/sec
+[2024.03.10-19.00.01:396][565]LogShaderCompilers: Display: Total thread time: 0.829 s
+[2024.03.10-19.00.01:396][565]LogShaderCompilers: Display: Total thread preprocess time: 0.058 s
+[2024.03.10-19.00.01:396][565]LogShaderCompilers: Display: Percentage time preprocessing: 6.94%
+[2024.03.10-19.00.01:396][565]LogShaderCompilers: Display: Effective parallelization: 0.61 (times faster than compiling all shaders on one thread). Compare with number of workers: 8
+[2024.03.10-19.00.01:396][565]LogShaderCompilers: Display: Top 1 most expensive shader types by average time:
+[2024.03.10-19.00.01:396][565]LogShaderCompilers: Display:                                           FLumenCardPS<true> (compiled    1 times, average 0.83 sec, max 0.83 sec, min 0.83 sec)
+[2024.03.10-19.00.01:396][565]LogShaderCompilers: Display: Top 1 shader types by total compile time:
+[2024.03.10-19.00.01:396][565]LogShaderCompilers: Display:                                           FLumenCardPS<true> - 100.00% of total time (compiled    1 times, average 0.83 sec, max 0.83 sec, min 0.83 sec)
+[2024.03.10-19.00.01:396][565]LogShaderCompilers: Display: ================================================
+[2024.03.10-19.00.03:491][673]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/StarterContent/Props/SM_Chair.SM_Chair
+[2024.03.10-19.00.03:491][673]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/StarterContent/Props/SM_Chair.SM_Chair
+[2024.03.10-19.00.03:493][673]LogActorFactory: Actor Factory spawned StaticMesh /Game/StarterContent/Props/SM_Chair.SM_Chair as actor: StaticMeshActor /Game/Levels/Hirai_Level.Hirai_Level:PersistentLevel.StaticMeshActor_2
+[2024.03.10-19.00.11:007][ 99]LogDebuggerCommands: Repeating last play command: 選択ビューポート
+[2024.03.10-19.00.11:014][ 99]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.03.10-19.00.11:014][ 99]PIE: New page: PIEセッション: Hirai_Level (2024/03/11 13:00:11)
+[2024.03.10-19.00.11:018][ 99]LogOnline: OSS: Created online subsystem instance for: NULL
+[2024.03.10-19.00.11:018][ 99]LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for type [NULL]
+[2024.03.10-19.00.11:018][ 99]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Hirai_Level
+[2024.03.10-19.00.11:020][ 99]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001649s)
+[2024.03.10-19.00.11:020][ 99]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Hirai_Level.Hirai_Level to /Game/Levels/UEDPIE_0_Hirai_Level.Hirai_Level (0.001693s)
+[2024.03.10-19.00.11:024][ 99]LogUObjectHash: Compacting FUObjectHashTables data took   0.45ms
+[2024.03.10-19.00.11:025][ 99]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.10-19.00.11:025][ 99]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.03.10-19.00.11:025][ 99]LogAIModule: Creating AISystem for world Hirai_Level
+[2024.03.10-19.00.11:025][ 99]LogPlayLevel: PIE: World Init took: (0.000872s)
+[2024.03.10-19.00.11:025][ 99]LogAudio: Display: Creating Audio Device:                 Id: 2, Scope: Unique, Realtime: True
+[2024.03.10-19.00.11:025][ 99]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.03.10-19.00.11:025][ 99]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.03.10-19.00.11:025][ 99]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.03.10-19.00.11:025][ 99]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.03.10-19.00.11:026][ 99]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.03.10-19.00.11:026][ 99]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.03.10-19.00.11:026][ 99]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.03.10-19.00.11:026][ 99]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.03.10-19.00.11:026][ 99]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.03.10-19.00.11:026][ 99]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.03.10-19.00.11:026][ 99]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.03.10-19.00.11:028][ 99]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.03.10-19.00.11:069][ 99]LogAudioMixer: Display: Using Audio Hardware Device ヘッドホン (soundcore Liberty 4)
+[2024.03.10-19.00.11:069][ 99]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.03.10-19.00.11:069][ 99]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.03.10-19.00.11:069][ 99]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.03.10-19.00.11:070][ 99]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=2
+[2024.03.10-19.00.11:070][ 99]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=2
+[2024.03.10-19.00.11:072][ 99]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=2
+[2024.03.10-19.00.11:072][ 99]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=2
+[2024.03.10-19.00.11:072][ 99]LogInit: FAudioDevice initialized with ID 2.
+[2024.03.10-19.00.11:072][ 99]LogAudio: Display: Audio Device (ID: 2) registered with world 'Hirai_Level'.
+[2024.03.10-19.00.11:072][ 99]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 2
+[2024.03.10-19.00.11:074][ 99]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2024.03.10-19.00.11:075][ 99]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Hirai_Level.Hirai_Level up for play (max tick rate 60) at 2024.03.11-04.00.11
+[2024.03.10-19.00.11:075][ 99]LogWorld: Bringing up level for play took: 0.000697
+[2024.03.10-19.00.11:077][ 99]LogOnline: OSS: Created online subsystem instance for: :Context_3
+[2024.03.10-19.00.11:084][ 99]PIE: サーバーにログインしました
+[2024.03.10-19.00.11:085][ 99]PIE: PIE合計開始時間 0.071 秒。
+[2024.03.10-19.00.15:791][376]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.03.10-19.00.15:791][376]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_Hirai_Level
+[2024.03.10-19.00.15:791][376]LogWorld: UWorld::CleanupWorld for Hirai_Level, bSessionEnded=true, bCleanupResources=true
+[2024.03.10-19.00.15:791][376]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.10-19.00.15:795][376]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.03.10-19.00.15:797][376]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.10-19.00.15:801][376]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.03.10-19.00.15:801][376]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 2
+[2024.03.10-19.00.15:802][376]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=2
+[2024.03.10-19.00.15:804][376]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=2
+[2024.03.10-19.00.15:812][376]LogUObjectHash: Compacting FUObjectHashTables data took   0.49ms
+[2024.03.10-19.00.15:875][377]LogPlayLevel: Display: Destroying online subsystem :Context_3
+[2024.03.10-19.00.21:445][707]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.10-19.00.21:549][707]LogUObjectHash: Compacting FUObjectHashTables data took   0.56ms
+[2024.03.10-19.00.21:562][707]LogSavePackage: Moving output files for package: /Game/Levels/Hirai_Level
+[2024.03.10-19.00.21:563][707]LogSavePackage: Moving '../../../../../../Users/gce202311/OneDrive - 学校法人中央情報学園/デスクトップ/Saiani/Saved/Hirai_Level467E49F74F753210B4520587C09E17FD.tmp' to '../../../../../../Users/gce202311/OneDrive - 学校法人中央情報学園/デスクトップ/Saiani/Content/Levels/Hirai_Level.umap'
+[2024.03.10-19.00.21:571][707]LogFileHelpers: Saving map 'Hirai_Level' took 0.048
+[2024.03.10-19.00.21:579][707]LogFileHelpers: InternalPromptForCheckoutAndSave took 135 ms (total: 362 ms)
+[2024.03.10-19.00.21:580][707]AssetCheck: New page: アセット保存：Hirai_Level
+[2024.03.10-19.00.21:580][707]LogContentValidation: Display: /Script/Engine.World /Game/Levels/Hirai_Level.Hirai_Level を検証しています
+[2024.03.10-19.00.28:067][ 88]LogUObjectHash: Compacting FUObjectHashTables data took   0.38ms
+[2024.03.10-19.00.29:810][ 88]LogSlate: Window 'コンテンツを保存' being destroyed
+[2024.03.10-19.00.29:819][ 88]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.10-19.00.29:937][ 88]LogSavePackage: Moving output files for package: /Game/StarterContent/Props/Materials/M_Chair
+[2024.03.10-19.00.29:939][ 88]LogSavePackage: Moving '../../../../../../Users/gce202311/OneDrive - 学校法人中央情報学園/デスクトップ/Saiani/Saved/M_Chair722EE02F4156B64DF37164B7C3ACF7A4.tmp' to '../../../../../../Users/gce202311/OneDrive - 学校法人中央情報学園/デスクトップ/Saiani/Content/StarterContent/Props/Materials/M_Chair.uasset'
+[2024.03.10-19.00.29:949][ 88]LogFileHelpers: InternalPromptForCheckoutAndSave took 129 ms (total: 491 ms)
+[2024.03.10-19.00.30:045][ 88]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.10-19.00.30:047][ 88]LogAssetEditorSubsystem: Opening Asset editor for World /Game/Levels/Furukawa_Level.Furukawa_Level
+[2024.03.10-19.00.30:047][ 88]Cmd: MAP LOAD FILE="../../../../../../Users/gce202311/OneDrive - 学校法人中央情報学園/デスクトップ/Saiani/Content/Levels/Furukawa_Level.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=4
+[2024.03.10-19.00.30:047][ 88]LightingResults: New page: ライティングのビルド
+[2024.03.10-19.00.30:047][ 88]LoadErrors: New page: マップをロード中: Furukawa_Level.umap
+[2024.03.10-19.00.30:092][ 88]LogWorld: UWorld::CleanupWorld for Hirai_Level, bSessionEnded=true, bCleanupResources=true
+[2024.03.10-19.00.30:092][ 88]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.10-19.00.30:093][ 88]MapCheck: New page: マップをチェック
+[2024.03.10-19.00.30:093][ 88]LightingResults: New page: <何も選択されていません>
+[2024.03.10-19.00.30:096][ 88]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.03.10-19.00.30:097][ 88]LogUObjectHash: Compacting FUObjectHashTables data took   0.59ms
+[2024.03.10-19.00.30:099][ 88]LogWorld: UWorld::CleanupWorld for Furukawa_Level, bSessionEnded=true, bCleanupResources=true
+[2024.03.10-19.00.30:100][ 88]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.10-19.00.30:104][ 88]LogUObjectHash: Compacting FUObjectHashTables data took   0.72ms
+[2024.03.10-19.00.30:108][ 88]LogUObjectHash: Compacting FUObjectHashTables data took   1.19ms
+[2024.03.10-19.00.30:111][ 88]LogAudio: Display: Audio Device (ID: 1) registered with world 'Furukawa_Level'.
+[2024.03.10-19.00.30:111][ 88]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.10-19.00.30:111][ 88]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.03.10-19.00.30:112][ 88]LogAIModule: Creating AISystem for world Furukawa_Level
+[2024.03.10-19.00.30:168][ 88]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2024.03.10-19.00.30:173][ 88]LogUObjectHash: Compacting FUObjectHashTables data took   0.74ms
+[2024.03.10-19.00.30:178][ 88]Cmd: MAP CHECKDEP NOCLEARLOG
+[2024.03.10-19.00.30:178][ 88]MapCheck: マップチェックが完了: 0 エラー、 0 警告、完了に 0.174ミリ秒かかりました。
+[2024.03.10-19.00.30:196][ 88]AssetCheck: New page: アセット保存：M_Chair
+[2024.03.10-19.00.30:196][ 88]LogContentValidation: Display: /Script/Engine.Material /Game/StarterContent/Props/Materials/M_Chair.M_Chair を検証しています
+[2024.03.10-19.00.31:216][143]LogUObjectHash: Compacting FUObjectHashTables data took   0.26ms
+[2024.03.10-19.00.31:312][143]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.10-19.00.31:313][143]LogAssetEditorSubsystem: Opening Asset editor for World /Game/Levels/Hirai_Level.Hirai_Level
+[2024.03.10-19.00.31:313][143]Cmd: MAP LOAD FILE="../../../../../../Users/gce202311/OneDrive - 学校法人中央情報学園/デスクトップ/Saiani/Content/Levels/Hirai_Level.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=4
+[2024.03.10-19.00.31:313][143]LightingResults: New page: ライティングのビルド
+[2024.03.10-19.00.31:313][143]LoadErrors: New page: マップをロード中: Hirai_Level.umap
+[2024.03.10-19.00.31:334][143]LogWorld: UWorld::CleanupWorld for Furukawa_Level, bSessionEnded=true, bCleanupResources=true
+[2024.03.10-19.00.31:334][143]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.10-19.00.31:334][143]MapCheck: New page: マップをチェック
+[2024.03.10-19.00.31:334][143]LightingResults: New page: <何も選択されていません>
+[2024.03.10-19.00.31:338][143]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.03.10-19.00.31:340][143]LogUObjectHash: Compacting FUObjectHashTables data took   0.65ms
+[2024.03.10-19.00.31:342][143]LogWorld: UWorld::CleanupWorld for Hirai_Level, bSessionEnded=true, bCleanupResources=true
+[2024.03.10-19.00.31:342][143]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.10-19.00.31:347][143]LogUObjectHash: Compacting FUObjectHashTables data took   0.57ms
+[2024.03.10-19.00.31:352][143]LogUObjectHash: Compacting FUObjectHashTables data took   1.20ms
+[2024.03.10-19.00.31:355][143]LogAudio: Display: Audio Device (ID: 1) registered with world 'Hirai_Level'.
+[2024.03.10-19.00.31:355][143]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.10-19.00.31:355][143]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.03.10-19.00.31:356][143]LogAIModule: Creating AISystem for world Hirai_Level
+[2024.03.10-19.00.31:410][143]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2024.03.10-19.00.31:416][143]LogUObjectHash: Compacting FUObjectHashTables data took   0.68ms
+[2024.03.10-19.00.31:422][143]Cmd: MAP CHECKDEP NOCLEARLOG
+[2024.03.10-19.00.31:422][143]MapCheck: マップチェックが完了: 0 エラー、 0 警告、完了に 0.183ミリ秒かかりました。
+[2024.03.10-19.00.32:602][211]LogUObjectHash: Compacting FUObjectHashTables data took   0.27ms
+[2024.03.10-19.00.32:693][211]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.10-19.00.32:696][211]LogAssetEditorSubsystem: Opening Asset editor for World /Game/Levels/Hoshina_Level.Hoshina_Level
+[2024.03.10-19.00.32:696][211]Cmd: MAP LOAD FILE="../../../../../../Users/gce202311/OneDrive - 学校法人中央情報学園/デスクトップ/Saiani/Content/Levels/Hoshina_Level.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=4
+[2024.03.10-19.00.32:696][211]LightingResults: New page: ライティングのビルド
+[2024.03.10-19.00.32:696][211]LoadErrors: New page: マップをロード中: Hoshina_Level.umap
+[2024.03.10-19.00.32:732][211]LogWorld: UWorld::CleanupWorld for Hirai_Level, bSessionEnded=true, bCleanupResources=true
+[2024.03.10-19.00.32:732][211]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.10-19.00.32:732][211]MapCheck: New page: マップをチェック
+[2024.03.10-19.00.32:732][211]LightingResults: New page: <何も選択されていません>
+[2024.03.10-19.00.32:735][211]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.03.10-19.00.32:736][211]LogUObjectHash: Compacting FUObjectHashTables data took   0.48ms
+[2024.03.10-19.00.32:738][211]LogWorld: UWorld::CleanupWorld for Hoshina_Level, bSessionEnded=true, bCleanupResources=true
+[2024.03.10-19.00.32:738][211]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.10-19.00.32:744][211]LogUObjectHash: Compacting FUObjectHashTables data took   0.70ms
+[2024.03.10-19.00.32:748][211]LogUObjectHash: Compacting FUObjectHashTables data took   0.76ms
+[2024.03.10-19.00.32:752][211]LogAudio: Display: Audio Device (ID: 1) registered with world 'Hoshina_Level'.
+[2024.03.10-19.00.32:752][211]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.10-19.00.32:752][211]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.03.10-19.00.32:753][211]LogAIModule: Creating AISystem for world Hoshina_Level
+[2024.03.10-19.00.32:808][211]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2024.03.10-19.00.32:814][211]LogUObjectHash: Compacting FUObjectHashTables data took   0.84ms
+[2024.03.10-19.00.32:818][211]Cmd: MAP CHECKDEP NOCLEARLOG
+[2024.03.10-19.00.32:819][211]MapCheck: マップチェックが完了: 0 エラー、 0 警告、完了に 0.127ミリ秒かかりました。
+[2024.03.10-19.00.33:465][247]LogUObjectHash: Compacting FUObjectHashTables data took   0.42ms
+[2024.03.10-19.00.33:561][247]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.10-19.00.33:563][247]LogAssetEditorSubsystem: Opening Asset editor for World /Game/Levels/Yokota_Level.Yokota_Level
+[2024.03.10-19.00.33:563][247]Cmd: MAP LOAD FILE="../../../../../../Users/gce202311/OneDrive - 学校法人中央情報学園/デスクトップ/Saiani/Content/Levels/Yokota_Level.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=4
+[2024.03.10-19.00.33:563][247]LightingResults: New page: ライティングのビルド
+[2024.03.10-19.00.33:563][247]LoadErrors: New page: マップをロード中: Yokota_Level.umap
+[2024.03.10-19.00.33:620][247]LogWorld: UWorld::CleanupWorld for Hoshina_Level, bSessionEnded=true, bCleanupResources=true
+[2024.03.10-19.00.33:620][247]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.10-19.00.33:620][247]MapCheck: New page: マップをチェック
+[2024.03.10-19.00.33:621][247]LightingResults: New page: <何も選択されていません>
+[2024.03.10-19.00.33:624][247]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.03.10-19.00.33:625][247]LogUObjectHash: Compacting FUObjectHashTables data took   0.54ms
+[2024.03.10-19.00.33:627][247]LogWorld: UWorld::CleanupWorld for Yokota_Level, bSessionEnded=true, bCleanupResources=true
+[2024.03.10-19.00.33:627][247]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.10-19.00.33:632][247]LogUObjectHash: Compacting FUObjectHashTables data took   0.51ms
+[2024.03.10-19.00.33:636][247]LogUObjectHash: Compacting FUObjectHashTables data took   1.21ms
+[2024.03.10-19.00.33:640][247]LogAudio: Display: Audio Device (ID: 1) registered with world 'Yokota_Level'.
+[2024.03.10-19.00.33:640][247]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.10-19.00.33:640][247]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.03.10-19.00.33:641][247]LogAIModule: Creating AISystem for world Yokota_Level
+[2024.03.10-19.00.33:695][247]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2024.03.10-19.00.33:700][247]LogUObjectHash: Compacting FUObjectHashTables data took   0.58ms
+[2024.03.10-19.00.33:707][247]Cmd: MAP CHECKDEP NOCLEARLOG
+[2024.03.10-19.00.33:708][247]MapCheck: マップチェックが完了: 0 エラー、 0 警告、完了に 0.2ミリ秒かかりました。
+[2024.03.10-19.00.34:332][282]LogUObjectHash: Compacting FUObjectHashTables data took   0.22ms
+[2024.03.10-19.00.34:407][282]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.10-19.00.34:408][282]LogAssetEditorSubsystem: Opening Asset editor for World /Game/Levels/Hoshina_Level.Hoshina_Level
+[2024.03.10-19.00.34:409][282]Cmd: MAP LOAD FILE="../../../../../../Users/gce202311/OneDrive - 学校法人中央情報学園/デスクトップ/Saiani/Content/Levels/Hoshina_Level.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=4
+[2024.03.10-19.00.34:409][282]LightingResults: New page: ライティングのビルド
+[2024.03.10-19.00.34:409][282]LoadErrors: New page: マップをロード中: Hoshina_Level.umap
+[2024.03.10-19.00.34:473][282]LogWorld: UWorld::CleanupWorld for Yokota_Level, bSessionEnded=true, bCleanupResources=true
+[2024.03.10-19.00.34:473][282]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.10-19.00.34:473][282]MapCheck: New page: マップをチェック
+[2024.03.10-19.00.34:473][282]LightingResults: New page: <何も選択されていません>
+[2024.03.10-19.00.34:477][282]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.03.10-19.00.34:478][282]LogUObjectHash: Compacting FUObjectHashTables data took   0.63ms
+[2024.03.10-19.00.34:480][282]LogWorld: UWorld::CleanupWorld for Hoshina_Level, bSessionEnded=true, bCleanupResources=true
+[2024.03.10-19.00.34:480][282]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.10-19.00.34:485][282]LogUObjectHash: Compacting FUObjectHashTables data took   0.56ms
+[2024.03.10-19.00.34:490][282]LogUObjectHash: Compacting FUObjectHashTables data took   0.53ms
+[2024.03.10-19.00.34:494][282]LogAudio: Display: Audio Device (ID: 1) registered with world 'Hoshina_Level'.
+[2024.03.10-19.00.34:494][282]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.10-19.00.34:494][282]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.03.10-19.00.34:494][282]LogAIModule: Creating AISystem for world Hoshina_Level
+[2024.03.10-19.00.34:551][282]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2024.03.10-19.00.34:556][282]LogUObjectHash: Compacting FUObjectHashTables data took   0.54ms
+[2024.03.10-19.00.34:561][282]Cmd: MAP CHECKDEP NOCLEARLOG
+[2024.03.10-19.00.34:562][282]MapCheck: マップチェックが完了: 0 エラー、 0 警告、完了に 0.161ミリ秒かかりました。
+[2024.03.10-19.00.35:016][307]LogUObjectHash: Compacting FUObjectHashTables data took   0.24ms
+[2024.03.10-19.00.35:074][307]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.10-19.00.35:075][307]LogAssetEditorSubsystem: Opening Asset editor for World /Game/Levels/Hirai_Level.Hirai_Level
+[2024.03.10-19.00.35:075][307]Cmd: MAP LOAD FILE="../../../../../../Users/gce202311/OneDrive - 学校法人中央情報学園/デスクトップ/Saiani/Content/Levels/Hirai_Level.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=4
+[2024.03.10-19.00.35:075][307]LightingResults: New page: ライティングのビルド
+[2024.03.10-19.00.35:075][307]LoadErrors: New page: マップをロード中: Hirai_Level.umap
+[2024.03.10-19.00.35:132][307]LogWorld: UWorld::CleanupWorld for Hoshina_Level, bSessionEnded=true, bCleanupResources=true
+[2024.03.10-19.00.35:132][307]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.10-19.00.35:133][307]MapCheck: New page: マップをチェック
+[2024.03.10-19.00.35:133][307]LightingResults: New page: <何も選択されていません>
+[2024.03.10-19.00.35:136][307]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.03.10-19.00.35:138][307]LogUObjectHash: Compacting FUObjectHashTables data took   0.61ms
+[2024.03.10-19.00.35:139][307]LogWorld: UWorld::CleanupWorld for Hirai_Level, bSessionEnded=true, bCleanupResources=true
+[2024.03.10-19.00.35:139][307]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.10-19.00.35:144][307]LogUObjectHash: Compacting FUObjectHashTables data took   0.73ms
+[2024.03.10-19.00.35:148][307]LogUObjectHash: Compacting FUObjectHashTables data took   0.74ms
+[2024.03.10-19.00.35:151][307]LogAudio: Display: Audio Device (ID: 1) registered with world 'Hirai_Level'.
+[2024.03.10-19.00.35:152][307]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.10-19.00.35:152][307]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.03.10-19.00.35:152][307]LogAIModule: Creating AISystem for world Hirai_Level
+[2024.03.10-19.00.35:207][307]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2024.03.10-19.00.35:213][307]LogUObjectHash: Compacting FUObjectHashTables data took   0.57ms
+[2024.03.10-19.00.35:219][307]Cmd: MAP CHECKDEP NOCLEARLOG
+[2024.03.10-19.00.35:219][307]MapCheck: マップチェックが完了: 0 エラー、 0 警告、完了に 0.216ミリ秒かかりました。
