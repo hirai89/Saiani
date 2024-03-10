@@ -1255,3 +1255,13 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2024.03.10-18.55.07:155][701]LogFileHelpers: InternalPromptForCheckoutAndSave took 114 ms
 [2024.03.10-18.55.07:157][701]AssetCheck: New page: アセット保存：StaticMeshActor_UAID_F0D415B1503446E101_2143440079
 [2024.03.10-18.55.07:157][701]LogContentValidation: Display: /Script/Engine.StaticMeshActor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_UAID_F0D415B1503446E101_2143440079 を検証しています
+[2024.03.10-18.56.19:079][257]Cmd: DELETE
+[2024.03.10-18.56.19:082][257]Cmd: ACTOR DELETE
+[2024.03.10-18.56.19:094][257]LogEditorActor: Deleted Actor: StaticMeshActor
+[2024.03.10-18.56.19:099][257]LogUObjectHash: Compacting FUObjectHashTables data took   0.44ms
+[2024.03.10-18.56.19:100][257]LogEditorActor: Deleted 1 Actors (0.011 secs)
+[2024.03.10-18.56.20:628][345]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.10-18.56.20:722][345]LogUObjectHash: Compacting FUObjectHashTables data took   0.26ms
+[2024.03.10-18.56.20:725][345]LogUObjectHash: Compacting FUObjectHashTables data took   0.32ms
+[2024.03.10-18.56.20:730][345]LogUObjectHash: Compacting FUObjectHashTables data took   0.28ms
+[2024.03.10-18.56.20:740][345]LogFileHelpers: InternalPromptForCheckoutAndSave took 112 ms (total: 227 ms)
